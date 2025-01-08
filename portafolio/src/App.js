@@ -1,13 +1,17 @@
-import logo from './logo.svg';
+
 import './App.css';
+import Header from './layouts/header';
+import Main from './pages/main';
+
 
 
 function App() {
   return (
-    <div className="App h-screen">
-       <h1 className="text-black font-black bg-slate-500 flex justify-center">Hola Mundo</h1>
+    <div className="App bg-[#23949D] h-screen">
+      <Header />
+      <Main />
+     
     </div>
-
 
   );
 }

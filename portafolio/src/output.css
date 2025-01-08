@@ -544,3 +544,13 @@ video {
 [hidden]:where(:not([hidden="until-found"])) {
   display: none;
 }
+
+@font-face {
+  font-family: 'Rubik-Vinyl';
+
+  src: url('./fonts/RubikVinyl-Regular.ttf') format('truetype');
+
+  font-weight: 400;
+
+  font-style: normal;
+}
