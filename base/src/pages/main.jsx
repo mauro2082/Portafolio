@@ -1,30 +1,32 @@
 import React from 'react';
 import im from '../assets/img/sommer.png';
 import Button from '../components/button';
+import './main.css';
 
 export default function Main() {
   return (
     <div>
 
-<div className='flex bg-[#232833] h-[390px]'>
+<div className='flex bg-[#232833] h-[390px] 2xl:h-[550px]'>
       <div className='w-1/2 flex flex-col justify-center items-center'>
         <div>
-          <p className='h-1/2 text-8xl font-rubik text-gray-400'>Freelance</p>
+          <p className='h-1/2 text-6xl xl:text-7xl 2xl:text-8xl font-rubik text-gray-400'>Freelance</p>
         </div>
-        <div className='h-1/2 text-sm font-mono text-gray-400 px-10'>
+        <div className='h-1/2 text-sm xl:text-xl 2xl:text-2xl font-mono text-gray-400 px-10'>
           <p className="mt-7">
           "Soy un desarrollador full-stack con experiencia en 
           creación de aplicaciones web utilizando React, Next.js y Python. Me apasiona 
           construir soluciones web que sean tanto funcionales como visualmente atractivas."
           </p>
           <div className='flex justify-center items-center mt-10'>
-             <Button text="Contactame" backgroundColor="#23949D" textColor="#e2e8f0" />
+             <Button text="Contactame" backgroundColor="#23949D" textColor="#e2e8f0" hoverColor='#2dd4bf' />
           </div>
          
         </div>
       </div>
       <div className='w-1/2 flex flex-col justify-center items-center'>
-         <img src={im} alt="sommer" height={350} width={350} />
+         {/* <img  src={im} alt="sommer" height={350} width={350} /> */}
+         <img  src={im} alt="sommer" className="imagen"  />
       </div>
 
      

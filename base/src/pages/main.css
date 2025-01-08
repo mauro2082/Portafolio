@@ -1,0 +1,22 @@
+
+.imagen {
+    max-width: 60%;
+    height: auto;
+    transition: filter 0.3s ease; /* Transición suave */
+  }
+  
+/*   .imagen:hover {
+    filter: blur(5px);
+  }
+ */
+  .imagen:hover {
+    filter: grayscale(80%);
+}
+
+
+@media (min-width: 2001px) { /* Estilos para pantallas mayores a 2000px */
+    .imagen {
+      max-width: 40%; /* O el ancho que desees en pantallas grandes */
+      height: auto;
+    }
+  }

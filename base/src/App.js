@@ -7,7 +7,7 @@ import Main from './pages/main';
 
 function App() {
   return (
-    <div className="App bg-[#23949D] h-screen ">
+    <div className="App bg-[#23949D] h-full">
       <Header />
       <Main />
      
