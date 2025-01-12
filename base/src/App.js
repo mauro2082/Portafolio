@@ -9,7 +9,8 @@ import Third from './pages/third';
 
 function App() {
   return (
-    <div className="App bg-[#23949D] h-full">
+    
+    <div className="App bg-[#23949D] h-full  flex flex-col ">
       <Header />
       <Main />
       <Seconds />

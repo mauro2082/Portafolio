@@ -8,6 +8,8 @@ import git from './git.png';
 import datos from './datos.png';
 import api from './api.png';
 import js from './js.png';
+import frontend from './frontend.png';
+import backend from './backend.png';
 
 
-export { programador1, programador2, python, react, next, git, datos, api, js };
+export { programador1, programador2, python, react, next, git, datos, api, js, frontend, backend };
